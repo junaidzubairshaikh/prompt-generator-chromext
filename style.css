@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  background-color: wheat;
+  height: 100vh;
+}
+
+.prompts-area {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  font-size: 16px;
+  margin: auto;
+  width: 50%;
+  height: 250px;
+  border-radius: 10%;
+  border: 1px solid #ccc;
+}
+
+.prompts-area .heading {
+  height: 40px;
+  align-self: center;
+  margin-top: 12px;
+  border-bottom: 2px solid #ccc;
+  margin-left: 10px;
+}
+
+.prompts-area .content {
+  margin: 25px 25px;
+}
